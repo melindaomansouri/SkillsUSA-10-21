@@ -6,7 +6,7 @@ body {
 #banner-one {
     background-image: url("../images/fishAndSand.jpg");
     width: 100%;
-    height: 350px;
+    height: 30vh;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -28,4 +28,42 @@ body {
     font-size: 1.5em;
     color:darkgreen;
     padding-right: 30px;
+}
+
+#banner-two {
+    display: flex;
+    justify-content: space-between;
+    height: 50vh;
+    background-color: lightblue;
+    
+}
+
+#banner-two > .banner-two-text-wrapper {
+    width: 50%;
+}
+#banner-two > .banner-two-text-wrapper > .banner-two-caption {
+    font-family: 'Source Serif Pro', serif;
+    width: 100%;
+    font-size: 3em;
+    color:white;
+    padding: 30px;
+    text-align: center;
+}
+
+#banner-two > .banner-two-text-wrapper > .banner-two-text {
+    font-family: 'Source Serif Pro', serif;
+    font-size: 2em;
+    color:white;
+    padding: 30px;
+    text-align: center;
+}
+
+
+#banner-two > .banner-two-subimage {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("../images/interior.jpg");
+    height: 100%;
+    width:55%;
+    float: right;
 }
