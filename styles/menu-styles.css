@@ -4,21 +4,17 @@ header {
     background-color: red;
     color: blue;
     display: flex;
+    position: fixed;
+}
+header img {
+    padding-left: 10px;
 }
 
 nav {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     width: 35%;
     height: 100%;
-
-}
-
-nav {
-    display: flex;
-    justify-content: space-between;
-    height: 100%;
-    width: 35%;
 }
 
 nav a {
@@ -36,11 +32,6 @@ nav a {
     animation: slide-in .5s forwards;
 }
 
-#about-wrapper:hover #sub-about {
-    display: block;
-    animation: slide-in .5s forwards;
-}
-
 @keyframes slide-in {
     0% {
         top: 0;
@@ -53,14 +44,14 @@ nav a {
     }
 }
 
-#sub-about, #sub-menu {
+#sub-menu {
     display: none;
     position: absolute;
     left: 0;
     top: 100px;
     opacity: 0;
     width: 100%;
-    height: 200px;
+    height: 300px;
     background-color: white;
 }
 /* test */
@@ -74,4 +65,23 @@ nav a {
     background-color: gold;
     border-radius: 10px;
     font-size: 1.5em;
+}
+
+.image-wrapper{
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    width: 70%;
+    height: 100%;
+    padding-top: 25px;
+    vertical-align: center;
+}
+
+.nav-image-wrapper {
+    height: 80%;
+    width: 20%;
+    text-align: center;
+    color: black;
+    font-size: 2em;
+
 }

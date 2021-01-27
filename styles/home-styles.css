@@ -3,6 +3,11 @@ body {
     background-color: aliceblue;
 }
 
+.spacer {
+    height: 100px;
+    width: 100%;
+}
+
 #banner-one {
     background-image: url("../images/fishAndSand.jpg");
     width: 100%;
