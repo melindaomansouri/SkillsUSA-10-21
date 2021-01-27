@@ -2,3 +2,30 @@ body {
     margin: 0px;
     background-color: aliceblue;
 }
+
+#banner-one {
+    background-image: url("../images/fishAndSand.jpg");
+    width: 100%;
+    height: 350px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.banner-one-text-header {
+    float: right;
+    font-family: 'Source Serif Pro', serif;
+    font-size: 3em;
+    color:darkgreen;
+    padding-right: 30px;
+}
+
+.banner-one-text {
+    font-family: 'Source Serif Pro', serif;
+    font-size: 1.5em;
+    color:darkgreen;
+    padding-right: 30px;
+}
