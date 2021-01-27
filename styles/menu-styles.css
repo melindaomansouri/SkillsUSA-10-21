@@ -1,0 +1,15 @@
+header {
+    height: 100px;
+    width: 100%;
+    background-color: red;
+    color: white;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+#sub-about, #sub-menu {
+    display: none;
+}
