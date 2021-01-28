@@ -1,16 +1,20 @@
 #social-section {
-    height: 65vh;
+    height: 50vh;
     width: 100%;
-    background-color: aliceblue;
+    background-color:  #E8A238;
     margin: 0;
     z-index: -5;
     text-align: center;
     box-sizing: border-box;
     border: 12px solid white; 
+    border-top: 0px
 }
 
 #social-section h2 {
     font-size: 2em;
+    margin: 0;
+    padding: 20px;
+    color:white;
 }
 
 #social-tile-wrapper {
@@ -23,7 +27,7 @@
 .social-wrapper {
     width: 300px;
     height: 300px;
-    background-color: palegoldenrod;
+    background-color: ;
     z-index: 0;
     position: relative;
 }
