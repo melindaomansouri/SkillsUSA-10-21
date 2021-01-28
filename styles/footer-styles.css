@@ -1,0 +1,33 @@
+footer {
+    width: 100%;
+    background-color: #1971B3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+footer > a > img {
+    width: 200px;
+    padding: 20px;
+    padding-bottom: 0px;
+}
+
+footer > p {
+    width: 200px;
+    color: white;
+    text-align: center;
+}
+
+footer > .social-icons-row {
+    display: flex;
+    width: 50%;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+footer > .social-icons-row > i {
+    color: white;
+    font-size: 2em;
+    padding: 10px;
+}
