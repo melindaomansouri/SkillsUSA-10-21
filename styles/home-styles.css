@@ -1,6 +1,7 @@
 body {
     margin: 0px;
     background-color: aliceblue;
+    font-family: 'Source Serif Pro', serif;
 }
 
 .spacer {
@@ -18,35 +19,47 @@ body {
     display: flex;
     align-items: center;
     justify-content: flex-end;
+    box-sizing: border-box;
+    border: 12px solid white; 
+}
+
+.banner-one-text {
+    background-color:#57B7FF;
+    border-radius: 10px 0px 0px 10px
 }
 
 .banner-one-text-header {
     float: right;
     font-family: 'Source Serif Pro', serif;
     font-size: 3em;
-    color:darkgreen;
-    padding-right: 30px;
+    color: white;
+    padding: 20px;
 }
 
 .banner-one-text {
     font-family: 'Source Serif Pro', serif;
     font-size: 1.5em;
-    color:darkgreen;
+    color:white;
     padding-right: 30px;
+    padding: 20px;
+
 }
 
 #banner-two {
     display: flex;
     justify-content: space-between;
     height: 50vh;
-    background-color: lightblue;
-    
+    background-color: #1F89E0;
+    border: 12px solid white;
+    border-top: 0px
 }
 
 #banner-two > .banner-two-text-wrapper {
     width: 50%;
+    border-right: 12px solid white;
+    
 }
-#banner-two > .banner-two-text-wrapper > .banner-two-caption {
+#banner-two > .banner-two-text-wrapper > h1 {
     font-family: 'Source Serif Pro', serif;
     width: 100%;
     font-size: 3em;
@@ -57,7 +70,7 @@ body {
 
 #banner-two > .banner-two-text-wrapper > .banner-two-text {
     font-family: 'Source Serif Pro', serif;
-    font-size: 2em;
+    font-size: 1.2em;
     color:white;
     padding: 30px;
     text-align: center;
@@ -67,8 +80,43 @@ body {
 #banner-two > .banner-two-subimage {
     background-size: cover;
     background-repeat: no-repeat;
-    background-image: url("../images/interior.jpg");
+    background-image: url("../images/oceanfishbanner.jpg");
     height: 100%;
-    width:55%;
+    width:50%;
     float: right;
+}
+
+#parallax { 
+    background-image: url("../images/fishAndKelp.jpg");
+    height: 50vh;
+    width: 100%;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    border: 12px solid white; 
+    border-top: 0px;
+    background-attachment: fixed;
+}
+
+.parallax-subbox {
+    background-color:#1971B3;
+    padding: 40px;
+    width: 80%;
+    height: 60%;
+    border-radius: 20px;
+}
+
+.subbox-text-wrapper {
+    color: white;
+    font-family: 'Source Serif Pro', serif;
+}
+
+.subbox-text-wrapper > h1 {
+    font-size: 2.4em;
+}
+
+.subbox-text-wrapper > .subbox-text-content {
+    font-size: 1.2em;
 }
