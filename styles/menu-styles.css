@@ -22,6 +22,7 @@ nav a {
     color: white;
     text-decoration: none;
     font-size: 2em;
+    font-family: 'Montserrat Alternates', sans-serif;
 }
 
 #menu-wrapper, #about-wrapper {
@@ -85,7 +86,8 @@ nav a {
     text-align: center;
     color: black;
     font-size: 2em;
-
+    font-family: 'Montserrat Alternates', sans-serif;
+}
 
 #menu-nav-wrapper {
     color: black;
@@ -96,9 +98,11 @@ nav a {
     position: absolute;
     right: -50px;
     top: 10px;
+    font-family: 'Montserrat Alternates', sans-serif;
 }
 
 #menu-nav-wrapper a {
+    
     color: black;
     text-decoration: none;
     font-size: 1.5em;
