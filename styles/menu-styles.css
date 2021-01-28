@@ -1,7 +1,7 @@
 header {
     height: 100px;
     width: 100%;
-    background-color: red;
+    background-color: #E8A238;
     color: blue;
     display: flex;
     position: fixed;
@@ -60,9 +60,9 @@ nav a {
     right: 20px;
     top: 20px;
     text-decoration: none;
-    color: darkblue;
+    color: white;
     padding: 20px;
-    background-color: gold;
+    background-color: #B36E07;
     border-radius: 10px;
     font-size: 1.5em;
 }
